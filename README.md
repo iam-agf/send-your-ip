@@ -5,7 +5,7 @@ It's useful to connect your Raspberry Pi when you don't know how to leave it wit
 
 ## How it works
 
-First of all, you must change the lines 31 & 32 with the variables token and user respectively. 
+To make this code work you must change the lines 31 & 32 with the variables token and user respectively. 
 
 ##### Getting your token
 
@@ -40,7 +40,7 @@ WantedBy=multi-user.target
 
 ```
 
-Then save it. Now run
+Then save it. Now run:
 
 ```
 systemctl enable ip
